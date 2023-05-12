@@ -1,0 +1,39 @@
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(64, 133, 238);
+  padding: 0.5em 0.5em;
+}
+
+.headerLogoContainer {
+}
+
+.headerLogo {
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.headerLinkList {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.headerLinkList > * {
+  margin: 0 0.5em;
+}
+
+.headerLink {
+  text-decoration: underline;
+  color: white;
+}
+
+.headerLink:active,
+.headerLink:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.headerLink:visited {
+  color: rgba(255, 255, 255, 0.73);
+}
